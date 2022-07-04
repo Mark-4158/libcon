@@ -1,0 +1,9 @@
+module unconfined_mcs 1.0;
+require {
+    attribute mcs_constrained_type;
+    type unconfined_service_t;
+    type unconfined_t;
+}
+
+typeattribute unconfined_service_t mcs_constrained_type;
+typeattribute unconfined_t mcs_constrained_type;
